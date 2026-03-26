@@ -34,8 +34,8 @@ export default function Projects() {
                             <span>| {p.title.padEnd(38, ' ')} |</span>
                         </div>
                         <div>+------------------------------------------+</div>
-                        <div className="px-2 py-2 flex flex-col justify-between h-full min-h-[5rem] border-l border-r border-dashed border-[#555]">
-                            <p className="mb-2 text-[#ccc] pr-2 break-words">{p.desc}</p>
+                        <div className="px-2 py-2 flex flex-col justify-between h-full min-h-20 border-l border-r border-dashed border-[#555]">
+                            <p className="mb-2 text-[#ccc] pr-2 wrap-break-word">{p.desc}</p>
                             <div className="mt-auto">
                                 <span className="text-[#888]">TECH: {p.tech}</span>
                             </div>
